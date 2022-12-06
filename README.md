@@ -2,7 +2,7 @@
 
 # TO-DO-List
 
-> This is a demo on how to set up a project with webpack. Webpack is a static module bundler for modern JavaScript applications. It's intelligent bundler to build all app dependencies based on your file imports.
+> This is a Minimal TODO List project set up using webpack. This project allows users to see their to do list tasks.
 
 ## Built With
 
