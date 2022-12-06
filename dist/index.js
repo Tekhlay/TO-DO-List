@@ -15,7 +15,7 @@
   \**********************/
 /***/ (() => {
 
-eval("\n\n//# sourceURL=webpack://to-do-list/./src/index.js?");
+eval("const tasks = [\n  {\n    description: 'Eat dinner',\n    completed: false,\n    index: 0,\n  },\n  {\n    description: 'Reading',\n    completed: false,\n    index: 1,\n  },\n];\n\nconst addtask = (task) => `<li>${tasks[task].description}</li>`;\n\nconst display = () => {\n  const tasklist = document.querySelector('.task');\n  for (let i = 0; i <= Object.keys(tasks).length; i += 1) {\n    const ul = document.createElement('ul');\n    ul.classList = 'task-list';\n    ul.innerHTML = addtask(i);\n    tasklist.appendChild(ul);\n  }\n};\n\n//# sourceURL=webpack://to-do-list/./src/index.js?");
 
 /***/ })
 
