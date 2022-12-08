@@ -27,3 +27,19 @@ window.onload = () => {
   }
   taskentry.display();
 };
+
+const clearalltask = document.querySelector('.clear-all-tasks');
+clearalltask.addEventListener('click', () => {
+  taskentry.Clearallcompletedtasks();
+  clearalltask.style.textDecoration = 'underline';
+});
+
+const counttask = document.querySelector('.count-task');
+const data = localStorage.getItem('TODOLISTDB');
+const x = JSON.parse(data);
+counttask.textContent = x.length;
+const refresh = document.querySelector('.refresh');
+refresh.addEventListener('click', () => {
+  localStorage.clear();
+  window.location.reload();
+});
