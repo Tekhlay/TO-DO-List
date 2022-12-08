@@ -36,8 +36,29 @@
   align-items: baseline;
 }
 
-.icon {
+.refresh {
+  background-color: #fff;
+  border: 0;
   margin-right: 10px;
+}
+
+.count-task {
+  cursor: pointer;
+  position: absolute;
+  color: white;
+  background: rgb(240, 72, 72);
+  border-radius: 7px;
+  line-height: 14px;
+  font-size: 9px;
+  min-width: 14px;
+  padding: 0 2px;
+  font-weight: 600;
+  text-align: center;
+  box-sizing: border-box;
+  box-shadow: white 0 0 0 2px;
+  opacity: 1;
+  transform: scale(1);
+  transition: all 100ms ease-in-out 0s;
 }
 
 .form-list {
