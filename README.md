@@ -12,6 +12,12 @@
 - [x] Webpack Loaders: style-loader and css-loader
 - [x] Code Editor: VS Code
 
+## Demo test
+
+- [x] To check the Live demo [click here](https://tekhlay.github.io/TO-DO-List/dist/)
+
+## Screen Shoot
+
 ## Getting Started
 
 To get a local copy up and running follow these simple steps.
