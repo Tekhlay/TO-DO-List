@@ -17,6 +17,7 @@
 - [x] To check the Live demo [click here](https://tekhlay.github.io/TO-DO-List/dist/)
 
 ## Screen Shoot
+![image](https://user-images.githubusercontent.com/90598109/206706885-1a9ddefe-ca17-48a6-a828-052979b15d38.png)
 
 ## Getting Started
 
