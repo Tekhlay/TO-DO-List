@@ -44,4 +44,4 @@ describe('Remove task', () => {
 
     expect(task.taskDtata).toHaveLength(2);
   });
-})
+});
