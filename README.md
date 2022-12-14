@@ -24,7 +24,7 @@ After you're finished please remove all the comments and instructions!
 
 <div align="center">
   <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
-  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
+  <img src="https://github.com/microverseinc/readme-template/blob/master/murple_logo.png" alt="logo" width="140"  height="auto" />
   <br/>
 
   <h3><b>Microverse README Template</b></h3>
@@ -116,6 +116,9 @@ After you're finished please remove all the comments and instructions!
 - [Live Demo Link](https://tekhlay.github.io/TO-DO-List/dist/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+## Screen Shoot
+
+![image](https://user-images.githubusercontent.com/90598109/206706885-1a9ddefe-ca17-48a6-a828-052979b15d38.png)
 
 <!-- GETTING STARTED -->
 
@@ -188,14 +191,10 @@ To start webpack-dev-server, use this:
 $ npm start
 ```
 
-## Screen Shoot
-
-![image](https://user-images.githubusercontent.com/90598109/206706885-1a9ddefe-ca17-48a6-a828-052979b15d38.png)
-
 ### Deployment
 
 You can deploy this project using:
-Githu pages
+Github pages
 
 <!--
 Example:
