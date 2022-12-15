@@ -52,7 +52,7 @@ describe('Editing', () => {
     task.addtask('Microverse', false, 0);
     task.addtask('Microverse1', false, 1);
     task.addtask('Microverse2', false, 2);
-    task.updatetask(2, 'Microverse2')
+    task.updatetask(2, 'Microverse2');
     task.taskDtata[2].index = 6;
     // task.removetask(1);
     expect(task.taskDtata[2].index).toEqual(6);
@@ -90,4 +90,3 @@ describe('Check Status', () => {
     expect(task.taskDtata.length).toEqual(0);
   });
 });
-
