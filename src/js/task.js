@@ -102,8 +102,8 @@ export default class Todolist {
     this.taskDtata.forEach((element, index) => {
       element.index = index;
     });
-    localStorage.setItem('TODOLISTDB', JSON.stringify(this.taskDtata));
-    this.display();
+    // localStorage.setItem('TODOLISTDB', JSON.stringify(this.taskDtata));
+    // this.display();
   }
 
   Clearallcompletedtasks = () => {
@@ -111,7 +111,7 @@ export default class Todolist {
     this.taskDtata.forEach((e, index) => {
       e.index = index;
     });
-    localStorage.setItem('TODOLISTDB', JSON.stringify(this.taskDtata));
+    // localStorage.setItem('TODOLISTDB', JSON.stringify(this.taskDtata));
     // window.location.reload();
   };
 }

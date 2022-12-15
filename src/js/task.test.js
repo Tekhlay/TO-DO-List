@@ -42,18 +42,52 @@ describe('Remove task', () => {
     task.addtask('Microverse1', false, 1);
     task.addtask('Microverse2', false, 2);
     task.removetask(1);
-
     expect(task.taskDtata).toHaveLength(2);
   });
 });
 
-describe('Update status', () => {
-  test('status', () => {
-    const taskStatus = new TaskStatus();
-    // const task = new Todolist();
-    const testTask = { description: 'description', completed: false, index: 0 };
-    // task.addtask({ description: 'description', completed: true, index: 0 });
-    taskStatus.checked(testTask);
-    expect(taskStatus.completed).toEqual(true);
+describe('Editing', () => {
+  test('Editing task', () => {
+    const task = new Todolist();
+    task.addtask('Microverse', false, 0);
+    task.addtask('Microverse1', false, 1);
+    task.addtask('Microverse2', false, 2);
+    task.updatetask(2, 'Microverse2')
+    task.taskDtata[2].index = 6;
+    // task.removetask(1);
+    expect(task.taskDtata[2].index).toEqual(6);
   });
 });
+
+describe('Check Status', () => {
+  test('Status', () => {
+    const task = new Todolist();
+    const status = new TaskStatus();
+    task.addtask('Morining', false, 0);
+    task.addtask('Microverse1', false, 1);
+    status.checked(task.taskDtata[1]);
+    expect(task.taskDtata[1].completed).toEqual(true);
+  });
+
+  test('Status', () => {
+    const task = new Todolist();
+    const status = new TaskStatus();
+    task.addtask('Morining', true, 0);
+    task.addtask('Microverse1', false, 1);
+    status.unchecked(task.taskDtata[0]);
+    expect(task.taskDtata[0].completed).toEqual(false);
+  });
+});
+
+describe('Check Status', () => {
+  test('Status', () => {
+    const task = new Todolist();
+    const status = new TaskStatus();
+    task.addtask('Morining', true, 0);
+    task.addtask('Microverse1', false, 1);
+    status.checked(task.taskDtata[1]);
+    task.Clearallcompletedtasks();
+    expect(task.taskDtata.length).toEqual(0);
+  });
+});
+

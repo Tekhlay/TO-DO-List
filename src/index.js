@@ -30,6 +30,7 @@ window.onload = () => {
 
 const clearalltask = document.querySelector('.clear-all-tasks');
 clearalltask.addEventListener('click', (e) => {
+  e.preventDefault();
   taskentry.Clearallcompletedtasks();
   clearalltask.style.textDecoration = 'underline';
 });
