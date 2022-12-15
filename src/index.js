@@ -29,7 +29,7 @@ window.onload = () => {
 };
 
 const clearalltask = document.querySelector('.clear-all-tasks');
-clearalltask.addEventListener('click', () => {
+clearalltask.addEventListener('click', (e) => {
   taskentry.Clearallcompletedtasks();
   clearalltask.style.textDecoration = 'underline';
 });
