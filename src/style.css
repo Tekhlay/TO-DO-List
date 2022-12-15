@@ -61,10 +61,14 @@
   transition: all 100ms ease-in-out 0s;
 }
 
+.container-todo {
+  width: 100%;
+}
 .form-list {
   border-bottom: 1px solid #cdcdcd;
   display: flex;
   justify-content: space-between;
+ 
 }
 
 .input-element,
@@ -76,9 +80,11 @@
   padding: 10px;
   border-style: none;
   outline: none;
+  max-width: 100%;
 }
 
 .addbtn {
+  max-width: 100%;
   border-style: none;
   margin-right: 10px;
   background-color: #fff;
@@ -118,4 +124,16 @@
   padding: 18px;
   width: 100%;
   box-shadow: 0 2px 8px rgb(0 0 0 / 15%);
+}
+
+@media (max-width:480px) {
+  .form-list {
+    max-width: 50%;
+    border-bottom: 1px solid #cdcdcd;
+    display: flex;
+    justify-content: space-between;
+   
+  }
+  
+  
 }

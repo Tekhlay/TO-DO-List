@@ -112,6 +112,6 @@ export default class Todolist {
       e.index = index;
     });
     localStorage.setItem('TODOLISTDB', JSON.stringify(this.taskDtata));
-    window.location.reload();
+    // window.location.reload();
   };
 }
