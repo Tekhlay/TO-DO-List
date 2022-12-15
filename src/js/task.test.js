@@ -1,4 +1,5 @@
 import Todolist from './task.js';
+import TaskStatus from './taskstatus.js';
 
 // document.body.innerHTML = '<ul class=\'task-item\'></ul>';
 describe('Add task', () => {
@@ -43,5 +44,16 @@ describe('Remove task', () => {
     task.removetask(1);
 
     expect(task.taskDtata).toHaveLength(2);
+  });
+});
+
+describe('Update status', () => {
+  test('status', () => {
+    const taskStatus = new TaskStatus();
+    // const task = new Todolist();
+    const testTask = { description: 'description', completed: false, index: 0 };
+    // task.addtask({ description: 'description', completed: true, index: 0 });
+    taskStatus.checked(testTask);
+    expect(taskStatus.completed).toEqual(true);
   });
 });
