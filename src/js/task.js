@@ -78,7 +78,9 @@ export default class Todolist {
   addtask = (description, completed, index) => {
     const newtask = new Tasks(description, completed, index);
     this.taskDtata.push(newtask);
-    // localStorage.setItem('TODOLISTDB', JSON.stringify(this.taskDtata));
+    if (typeof window !== 'undefined') {
+      localStorage.setItem('TODOLISTDB', JSON.stringify(this.taskDtata));
+    }
   }
 
   removetask(item) {
@@ -91,8 +93,10 @@ export default class Todolist {
     this.taskDtata.forEach((element, index) => {
       element.index = index;
     });
-    // localStorage.setItem('TODOLISTDB', JSON.stringify(this.taskDtata));
-    // this.display();
+    if (typeof window !== 'undefined') {
+      localStorage.setItem('TODOLISTDB', JSON.stringify(this.taskDtata));
+      this.display();
+    }
   }
 
   updatetask(item, description) {
@@ -102,8 +106,10 @@ export default class Todolist {
     this.taskDtata.forEach((element, index) => {
       element.index = index;
     });
-    localStorage.setItem('TODOLISTDB', JSON.stringify(this.taskDtata));
-    this.display();
+    if (typeof window !== 'undefined') {
+      localStorage.setItem('TODOLISTDB', JSON.stringify(this.taskDtata));
+      this.display();
+    }
   }
 
   Clearallcompletedtasks = () => {
@@ -111,7 +117,9 @@ export default class Todolist {
     this.taskDtata.forEach((e, index) => {
       e.index = index;
     });
-    localStorage.setItem('TODOLISTDB', JSON.stringify(this.taskDtata));
-    // window.location.reload();
+    if (typeof window !== 'undefined') {
+      localStorage.setItem('TODOLISTDB', JSON.stringify(this.taskDtata));
+      window.location.reload();
+    }
   };
 }
