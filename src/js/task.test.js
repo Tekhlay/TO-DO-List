@@ -53,14 +53,14 @@ describe('Editing', () => {
     task.addtask('Microverse1', false, 1);
     task.addtask('Microverse2', false, 2);
     task.updatetask(2, 'Microverse2');
-    task.taskDtata[2].index = 6;
+    task.taskDtata[2].description = 'Launch Break';
     // task.removetask(1);
-    expect(task.taskDtata[2].index).toEqual(6);
+    expect(task.taskDtata[2].description).toEqual('Launch Break');
   });
 });
 
-describe('Check Status', () => {
-  test('Status', () => {
+describe('Updating task', () => {
+  test('Check Status', () => {
     const task = new Todolist();
     const status = new TaskStatus();
     task.addtask('Morining', false, 0);
@@ -69,7 +69,7 @@ describe('Check Status', () => {
     expect(task.taskDtata[1].completed).toEqual(true);
   });
 
-  test('Status', () => {
+  test('check Status', () => {
     const task = new Todolist();
     const status = new TaskStatus();
     task.addtask('Morining', true, 0);
@@ -79,8 +79,8 @@ describe('Check Status', () => {
   });
 });
 
-describe('Check Status', () => {
-  test('Status', () => {
+describe('Clear task', () => {
+  test('Clear all completed', () => {
     const task = new Todolist();
     const status = new TaskStatus();
     task.addtask('Morining', true, 0);
