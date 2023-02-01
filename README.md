@@ -116,8 +116,7 @@ After you're finished please remove all the comments and instructions!
 - [Live Demo Link](https://tekhlay.github.io/TO-DO-List/dist/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-## Screen Shoot
-![image](https://user-images.githubusercontent.com/90598109/206706885-1a9ddefe-ca17-48a6-a828-052979b15d38.png)
+### Screen Shoot
 
 ![image](https://user-images.githubusercontent.com/90598109/206706885-1a9ddefe-ca17-48a6-a828-052979b15d38.png)
 
@@ -217,7 +216,7 @@ Example:
 
 - GitHub: [@Tekhlay](https://github.com/Tekhlay)
 - Twitter: [@TeklayB](https://twitter.com/TeklayB12)
-- LinkedIn: [LinkedIn](hhttps://www.linkedin.com/in/teklay-birhane-20b64a18a/)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/teklay-birhane-20b64a18a/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -225,7 +224,6 @@ Example:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-> Describe 1 - 3 features you will add to the project.
 
 - [ ] **[Drag and drop order functionality]**
 - [ ] **[new_feature_2]**
@@ -239,7 +237,7 @@ Example:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/Tekhlay/TO-DO-List/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -247,9 +245,8 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-> Write a message to encourage readers to support your project
 
-If you like this project Give ⭐️.
+If you like this project Give ⭐️ and share with your friends.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -257,7 +254,6 @@ If you like this project Give ⭐️.
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-> Give credit to everyone who inspired your codebase.
 
 I would like to thank microverse.
 
@@ -269,9 +265,9 @@ I would like to thank microverse.
 
 > Add at least 2 questions new developers would ask when they decide to use your project.
 
-- **[Question_1]**
+- **[How to use the source code?]**
 
-  - [Answer_1]
+  - [For educational purpose only]
 
 - **[Question_2]**
 
@@ -283,8 +279,7 @@ I would like to thank microverse.
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./LICENSE) licensed.
+This project is [MIT](https://github.com/Tekhlay/TO-DO-List/blob/main/LICENSE) licensed.
 
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
