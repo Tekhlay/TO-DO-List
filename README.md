@@ -216,7 +216,7 @@ Example:
 
 - GitHub: [@Tekhlay](https://github.com/Tekhlay)
 - Twitter: [@TeklayB](https://twitter.com/TeklayB12)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/teklay-birhane-20b64a18a/)
+- LinkedIn: [https://www.linkedin.com/in/tekhlay/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
